@@ -1,13 +1,13 @@
 # LT_Upload_Chrome_Profile_Remote_driver
 This repo includes the steps to upload a custom profile in LambdaTest remote driver on Chrome browser.
 
-Chrome profile can be passed with local Chrome driver using chromeOptions like below; however, the same was not supported with the remote driver.
+**Chrome profile can be passed with local Chrome driver using chromeOptions like below; however, the same was not supported with the remote driver.
 
 chromeOptions option = new ChromeOptions();
 
  option.addArguments("user-data-dri=C:\\Users\\Your path to user\\Roaming\\Google\\Chrome\\User Data"); 
 
-WebDriver driver = new ChromeDriver(option);
+WebDriver driver = new ChromeDriver(option);**
 
  
 
